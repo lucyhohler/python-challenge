@@ -3,7 +3,8 @@ import os
 # Module for reading csv file
 import csv
 
-csvpath = os.path.join('election_data.csv')
+path_of_file = 'C:/Users/lucyh/OneDrive/Desktop/Boot Camp/02-Homework/03-Python/Resources'
+csvpath = os.path.join(path_of_file, 'election_data.csv')
 # Export a text file with the results
 file_output = "results.txt"
 output = ""
